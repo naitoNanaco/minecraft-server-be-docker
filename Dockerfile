@@ -1,6 +1,6 @@
-FROM debian:testing-slim
+FROM ubuntu:latest
 
-ENV MINECRAFT_VERSION=1.9.0.15
+ENV MINECRAFT_VERSION=1.16.201.02
 
 WORKDIR /home/minecraft
 
